@@ -42,7 +42,7 @@ main{
 header{
     background-image: linear-gradient(to bottom, var(--cor04), var(--cor02)) ;
     background-repeat: no-repeat;
-   color: #041b0f;
+   color: white;
  min-height:150px;
  
 }
