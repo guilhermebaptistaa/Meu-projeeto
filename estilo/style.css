@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+
+@font-face {
+    font-family: face;
+    src: url("../Letra/Kenyan\ Coffee\ Bd.otf") format(opentype);
+}
+
+*{
+    
+margin: 0px;
+padding: 0px;
+}
+
+
+:root{
+    --cor04: #092e19 ;
+    --cor03: #204e34;
+    --cor02: #3de686;
+    --cor01: #7bebac;
+
+    --fonte-padrao: Arial, verdana, helvetica, sans-serif; 
+    --fonte-destaque: "Teko" ;
+    --font-personalizada:"face";
+}
+
+body{
+    background-color: rgb(143, 180, 134);
+    font-family: var(--fonte-padrao);
+  
+}
+main{
+    background-color:white;
+   max-width: 800px;
+   min-width: 230px;
+    margin: auto;
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor02)) ;
+    background-repeat: no-repeat;
+   color: #041b0f;
+ min-height:150px;
+ 
+}
+header h1{
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    padding: 20px;  
+    max-width: 800px;
+    margin: auto;
+    font-weight: normal;  
+}
+
+header p{
+    text-align: center;
+    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+    font-family: var(--fonte-destaque);
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+nav{
+    background-color: #2db96a;
+    padding: 9px;
+    color: white;
+    box-shadow: -2px 3px 6px 0px black;
+    
+}
+
+nav a{
+ color: #072e19;
+ text-decoration: none;
+ padding: 5px;
+ font-weight: bolder;
+}
+
+
+nav a:hover{
+    background-color: #041b0f;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    
+}
+
+main  h2 {
+    font-family: var(--font-personalizada);
+    
+}
+
+article{
+    font-size: 1.3em;
+  
+    background-image: url(../Imagem/fundo-gradiente-futurista-com-esferas_23-2149110136.jpg);
+    color: white;
+    background-attachment: fixed;
+    padding: 20px;
+    border-radius: 25px;
+}
+article h2{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    text-indent: 25px;
+}
+main img{
+    width: 100%;
+    border-radius: 20px;
+}
+footer{
+    padding: 2px;
+    text-align: center;
+    background-color: #343635;
+    
+}
+footer p{
+    text-align: center;
+    
+}
+
+
